@@ -1,31 +1,61 @@
-### Hi there 👋
+### Hi 👋 I'm Preben
 
-My name is Preben and I come from the rainy city of Bergen in Norway. I have just finished studying Front-End Development at the Noroff School of technology and digital media. I am very interested in web and app development and now I am looking for a job where I can work with this. Maybe you want to hire me? :smile:
+I'm a Front-End Developer by education with strong experience in fullstack development through many years of building my own projects.  
+I’ve been working with web technologies since my teens and have continuously built websites, apps and digital solutions out of genuine interest in how things work under the hood.
 
-#### ⚡ My skills:
-- HTML
-- CSS
-- SASS
-- BOOTSTRAP
-- JAVASCRIPT
-- REACT
-- NEXT
+I enjoy working on complex problems, learning new technologies, and building complete solutions from idea to production.  
+Most of my experience comes from self-driven projects where I’ve worked across frontend, backend, APIs and integrations.
 
+---
 
-##### 📫 How to reach me: prebeneide@hotmail.com
+### 💻 Tech stack & tools
 
+**Frontend**
+- HTML5  
+- CSS3  
+- Responsive design / Mobile first  
+- JavaScript  
+- TypeScript  
+- React  
+- Next.js  
+- Vue  
+- Tailwind CSS  
+- Bootstrap  
+- SCSS / SASS  
+- Styled Components  
 
-<!--
-**prebeneide/prebeneide** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Backend & APIs**
+- Node.js  
+- Express.js  
+- REST APIs  
+- GraphQL  
 
-Here are some ideas to get you started:
+**Databases & BaaS**
+- MongoDB  
+- PostgreSQL  
+- Firebase  
+- Supabase  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**E-commerce & CMS**
+- Shopify (Admin, theme customization, apps, Storefront API, headless)  
+- WordPress  
+- Headless CMS  
+
+**Dev tools & deployment**
+- Git / GitHub  
+- VS Code  
+- Netlify  
+- Vercel  
+
+---
+
+### 🚀 About my projects
+
+Most of the repositories here come from my studies and a selection of personal projects.  
+A large part of my experience comes from private and self-initiated projects that are not public, where I’ve built full solutions to learn, experiment and solve real problems.
+
+---
+
+### 📫 Contact
+
+- Email: prebenfjeldsbo@gmail.com
