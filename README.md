@@ -16,7 +16,7 @@ shows the volume rather than the code: **2,152 contributions over the past year,
 | **AIQINITY** | SaaS platform where companies describe what they need in a chat and get a working internal application with its own domain, billing and hosting. Includes a desktop agent written in Rust with a sandbox, a hash-chained audit log and keys in the OS keychain. | Rust, Tauri, Next.js, TypeScript, Supabase, Stripe |
 | **Resepsjon.ai** | AI agent that answers incoming calls for businesses. Real-time audio on a self-hosted server, answers from the customer's own documents with RAG, and escalates to a human when it shouldn't answer alone. | Next.js, TypeScript, LiveKit, Twilio, RAG |
 | **[TreatMeHome](https://apps.apple.com/no/app/treatmehome/id6762602518)** | Marketplace app for home-based services. Booking, Stripe payments, and a map that handles thousands of live points without stalling. iOS, Android and web from one codebase. | Flutter, Riverpod, Supabase, Stripe |
-| **[Roomr](https://apps.apple.com/no/app/roomr-just-knock-hang-out/id6761539251)** | Social app where friends each have a virtual room. Real-time audio and video over WebRTC, with native call handling through CallKit and ConnectionService. | Flutter, Node.js, PostgreSQL, WebRTC, LiveKit |
+| **[UpWorld](https://apps.apple.com/no/app/upworld-steps-real-estate/id6761539251)** | Step counter and a game played on the real map: collect coins where you actually walk, hunt rare finds tied to terrain, and buy real buildings with coordinates and floor area. Grew out of Roomr, so the WebRTC rooms are still in it. | Flutter, Node.js, PostgreSQL, WebRTC, LiveKit, maps and geolocation |
 | **[Steppin](https://github.com/prebeneide/GetSteppin)** | Activity app for iOS and Android reading motion data straight from the device sensors. Daily goals, friends, leaderboards and charts. Source is public. | React Native, Expo, TypeScript, Supabase |
 | **mAIdoctor** | Health app where the conversation remembers the user's history over time, with structured programmes and PDF reports to bring to a doctor's appointment. | React Native, Expo, TypeScript, Supabase |
 
@@ -63,17 +63,21 @@ call to a human in time.
 Built from idea to published app: Flutter for iOS, Android and web, Supabase for data and
 auth, Stripe for payments, and a clustered map that stays smooth with thousands of points.
 
-### Roomr — knock on a friend's door
+### UpWorld — a step counter played on the real map
 
 <p>
-<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/94/6c/6b/946c6ba4-3a89-220f-6e40-7ab76411f194/IMG_7943.PNG/400x0w.png" width="170" alt="Your friends' rooms">
-<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/46/39/53/4639533e-6eec-7e55-2dd7-f6c40a74738a/IMG_7979.PNG/400x0w.png" width="170" alt="Someone knocks to come in">
-<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8b/d5/08/8bd50808-2f86-d2d8-9303-3a8b57e5dce3/IMG_7967.PNG/400x0w.png" width="170" alt="Live audio and video in a room">
-<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4e/15/f1/4e15f110-baf7-5c48-afec-5f3abf27ad83/IMG_7959.PNG/400x0w.png" width="170" alt="Open or lock your own room">
+<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9f/69/18/9f69183c-88f6-af51-86e9-23d667452753/02_IMG_0659.PNG/400x0w.png" width="170" alt="The live map with coins, steps, distance and time">
+<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/86/20/7b/86207b55-4f91-1425-bd45-a7b075ce6a4a/01_IMG_0629.PNG/400x0w.png" width="170" alt="3D city view with coins in the streets">
+<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/63/5a/26/635a26ee-d373-445f-904b-7ecc221cc9c3/04_IMG_0622.PNG/400x0w.png" width="170" alt="Buying a real city block with coordinates and floor area">
+<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/45/fc/a245fc0c-e227-5b70-469a-ed1bbbdd6ed3/05_IMG_0498.PNG/400x0w.png" width="170" alt="The property collection, with rarity cards">
 </p>
 
-Version 1.0: open and locked rooms, knocking, presence and notifications, with real-time
-audio and video over WebRTC and native call handling through CallKit and ConnectionService.
+Your steps are the currency. Coins appear in the streets you actually walk, rare finds are
+tied to the terrain you're standing on, and the buildings you buy are real ones, with real
+coordinates and floor area, carrying your colour and your name on the map. Motion data
+straight from the device sensors, thousands of live objects on the map without stalling,
+and an economy with property and rarity behind it. It grew out of Roomr, so the WebRTC
+rooms are still in there.
 
 ## Tech
 
